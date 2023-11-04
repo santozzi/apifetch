@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+section{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    
+
+}
+
+
+.tarjeta{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: drop-shadow(0px 0px 5px #000000);
+    border-radius: 20px;
+    background-color: white;
+    width:250px;
+    height: 400px;
+    border:solid 1px #000000;
+
+    transition: 0.25s;
+
+
+}
+.tarjeta img{
+
+    width: 200px;
+    max-height: 200px;
+
+    
+}
+
